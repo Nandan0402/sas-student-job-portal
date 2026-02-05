@@ -1,4 +1,19 @@
-<h1 align="center">🎓💼 SAS – Student Job Portal | Web Designing Project 🌐</h1>
+<!-- PROFILE SECTION -->
+<p align="center">
+  <img 
+    src="https://avatars.githubusercontent.com/Nandan0402" 
+    width="160" 
+    style="border-radius: 50%; border: 5px solid #4CAF50; box-shadow: 0 0 25px rgba(76,175,80,0.6);" 
+  />
+</p>
+
+<h1 align="center">🎓💼 SAS – Student Job Portal 🌐</h1>
+
+<p align="center">
+  <b>Designed & Developed by <span style="color:#4CAF50;">Nandan B</span></b><br>
+  🏆 <b>1st Prize Winner – Web Designing</b> <br>
+  📅 <b>3rd February 2026</b>
+</p>
 
 <p align="center">
   <img src="https://img.icons8.com/color/96/web-design.png"/>
@@ -16,26 +31,24 @@
 <h2>🚀 Project Overview</h2>
 
 <p>
-<b>SAS – Student Job Portal</b> is a responsive frontend web application designed to connect
-<b>students</b> with <b>real-world job and internship opportunities</b> through a clean and
-intuitive user interface.
+<b>SAS – Student Job Portal</b> is a responsive frontend web application created to connect
+<b>students 👨‍🎓👩‍🎓</b> with <b>real-world job & internship opportunities 💼</b>.
 </p>
 
 <p>
-The project focuses on <b>UI/UX design, responsiveness, and real-world workflow simulation</b>.
-It was developed as part of a competitive web designing event.
+The project focuses on <b>clean UI/UX design, responsiveness, and real-world workflow simulation</b>.
 </p>
 
 <p>
 🏆 <b>This project won <span style="color:green;">1st Prize</span> in a Web Designing competition
-held on <b>3rd February 2026</b>.</b>
+held on <b>3rd February 2026</b> at Ramaiah College.</b>
 </p>
 
-<h3>Suitable for:</h3>
+<h3>✅ Suitable for:</h3>
 <ul>
   <li>🎓 College mini / web design projects</li>
-  <li>💡 Frontend development practice</li>
-  <li>🎨 UI/UX and responsive design learning</li>
+  <li>💡 Frontend development learning</li>
+  <li>🎨 UI/UX practice</li>
   <li>💼 GitHub & LinkedIn portfolios</li>
 </ul>
 
@@ -44,29 +57,29 @@ held on <b>3rd February 2026</b>.</b>
 <h2>🧠 Problem Statement</h2>
 
 <p>
-Students often face difficulty finding internships and entry-level jobs due to
-unstructured platforms and poor user experience.
+Students often struggle to find internships and entry-level jobs due to
+poorly designed platforms and confusing interfaces.
 </p>
 
 <p>
-Manual searching is time-consuming and inefficient.
+Manual searching is inefficient and time-consuming.
 </p>
 
 <p>
-👉 <b>SAS provides a centralized, easy-to-use platform where students can explore roles,
-apply for jobs, and submit applications directly to companies.</b>
+👉 <b>SAS provides a clean, centralized, and student-friendly platform</b>
+to explore jobs, apply easily, and submit applications directly to companies.
 </p>
 
 <hr>
 
-<h2>📂 Features & Functionalities</h2>
+<h2>✨ Key Features</h2>
 
 <ul>
-  <li>🔐 Student Login Modal</li>
-  <li>📝 Job Application Modal</li>
-  <li>📱 Fully Responsive Design</li>
-  <li>🎞 Smooth UI animations & transitions</li>
-  <li>🧪 Multiple Job Categories:
+  <li>📱 Fully responsive modern UI</li>
+  <li>🔐 Student Login modal</li>
+  <li>📝 Job Application modal</li>
+  <li>🎞 Smooth animations & transitions</li>
+  <li>🧪 Job categories:
     <ul>
       <li>🤖 Robotics</li>
       <li>📊 Data Filling</li>
@@ -98,7 +111,7 @@ git clone https://github.com/Nandan0402/sas-student-job-portal.git
 </pre>
 
 <ol start="2">
-  <li>📂 Navigate to the project directory</li>
+  <li>📂 Open the project folder</li>
 </ol>
 
 <pre>
@@ -114,35 +127,32 @@ cd sas-student-job-portal
 <h2>📈 Learning Outcomes</h2>
 
 <ul>
-  <li>Understanding responsive web design</li>
-  <li>Implementing modal-based UI interactions</li>
-  <li>Applying UI/UX design principles</li>
-  <li>Writing clean and structured frontend code</li>
-  <li>Building real-world frontend projects</li>
+  <li>🎨 UI/UX & responsive design</li>
+  <li>⚙️ JavaScript-based interactions</li>
+  <li>🧩 Structured frontend development</li>
+  <li>🎤 Project presentation skills</li>
 </ul>
 
 <hr>
 
-<h2>📌 Use Cases</h2>
+<h2>🏆 Achievement</h2>
 
-<ul>
-  <li>🎓 Academic web designing project</li>
-  <li>💼 Frontend portfolio project</li>
-  <li>🧠 UI/UX practice</li>
-  <li>🏆 Competition-level project submission</li>
-</ul>
-
-<hr>
-
-<h2>👤 Author</h2>
-
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/Nandan0402" width="120" style="border-radius: 50%;" />
+<p>
+🥇 <b>1st Prize – Web Designing</b><br>
+🎯 Techno Freaks Inter-Class Competition 2026<br>
+📅 <b>3rd February 2026</b><br>
+🏫 Department of Computer Applications<br>
+Ramaiah College of Arts, Science & Commerce (Autonomous)
 </p>
+
+<hr>
+
+<h2>👤 About Me</h2>
 
 <p align="center">
   <b>Nandan B</b><br>
-  🎓 BCA Student | 💻 Web Design & Frontend Enthusiast
+  🎓 BCA Student<br>
+  💻 Web Design & Frontend Developer<br>
 </p>
 
 <p align="center">
@@ -152,28 +162,6 @@ cd sas-student-job-portal
 
 <hr>
 
-<h2>⭐ Conclusion</h2>
-
-<p>
-This project highlights strong <b>frontend development and web designing fundamentals</b>,
-making it ideal for students and beginners to understand how real-world web applications
-are designed and presented.
-</p>
-
 <p align="center">
-⭐ If you find this project useful, please star the repository ⭐
+⭐ If you like this project, please star the repository ⭐
 </p>
-
-<hr>
-
-<h2>📁 Project Structure</h2>
-
-<pre>
-sas-student-job-portal/
-│
-├── index.html              # Main HTML file
-├── style.css               # Styling & responsiveness
-├── script.js               # JavaScript logic
-├── images/                 # Image assets
-└── README.md               # Project documentation
-</pre>
