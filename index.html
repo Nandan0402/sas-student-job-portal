@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAS - Student Job Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">SAS</div>
+        <div class="nav-buttons">
+            <button id="loginBtn" class="btn btn-outline">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;">
+                    <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+                    <polyline points="10 17 15 12 10 7" />
+                    <line x1="15" y1="12" x2="3" y2="12" />
+                </svg>
+                Student Login
+            </button>
+            <button class="btn btn-primary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;">
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="8.5" cy="7" r="4" />
+                    <line x1="20" y1="8" x2="20" y2="14" />
+                    <line x1="23" y1="11" x2="17" y2="11" />
+                </svg>
+                Sign Up
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1 class="hero-title">SAS</h1>
+            <p class="hero-description">
+                SAS is a student-focused platform that connects students with real-world job and internship
+                opportunities. Students can apply for various roles, and their applications are directly shared with
+                companies looking for fresh talent.
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary-large">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                    </svg>
+                    Explore Jobs
+                </button>
+                <button class="btn btn-outline-large">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                        <circle cx="9" cy="7" r="4" />
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                    </svg>
+                    Join as a Student
+                </button>
+            </div>
+        </section>
+
+        <!-- Positions Section -->
+        <section class="positions-section">
+            <h2 class="section-title">Available Positions</h2>
+            <p class="section-subtitle">Explore exciting opportunities across various fields. Apply now and kickstart
+                your career!</p>
+
+            <div class="cards-grid">
+                <!-- Card 1: Robotics -->
+                <div class="card">
+                    <div class="card-image-container">
+                        <img src="robotics.png" alt="Robotics" class="card-image">
+                    </div>
+                    <div class="card-content">
+                        <h3>Robotics</h3>
+                        <p>Opportunities to work on robotics projects, automation, hardware integration, and innovative
+                            tech solutions.</p>
+                        <button class="btn btn-primary full-width apply-btn" data-role="Robotics">Apply Now
+                            &rarr;</button>
+                    </div>
+                </div>
+
+                <!-- Card 2: Data Filling -->
+                <div class="card">
+                    <div class="card-image-container">
+                        <img src="data-filling.png" alt="Data Filling" class="card-image">
+                    </div>
+                    <div class="card-content">
+                        <h3>Data Filling</h3>
+                        <p>Entry-level role focused on data entry, data organization, accuracy, and basic computer
+                            skills.</p>
+                        <button class="btn btn-primary full-width apply-btn" data-role="Data Filling">Apply Now
+                            &rarr;</button>
+                    </div>
+                </div>
+
+                <!-- Card 3: Cyber Security -->
+                <div class="card">
+                    <div class="card-image-container">
+                        <img src="cyber-security.png" alt="Cyber Security" class="card-image">
+                    </div>
+                    <div class="card-content">
+                        <h3>Cyber Security</h3>
+                        <p>Learn and work on digital security, threat analysis, system protection, and cybersecurity
+                            fundamentals.</p>
+                        <button class="btn btn-primary full-width apply-btn" data-role="Cyber Security">Apply Now
+                            &rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Info Banner -->
+    <div class="container">
+        <div class="info-banner">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            <p>All student applications are sent directly to our partner companies looking for fresh talent.</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-logo">SAS</div>
+                <p class="footer-tagline">Connecting students with real-world opportunities</p>
+                <p class="copyright">© 2026 SAS. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <p>Developed by Saravana, Akshat and Sumanth</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn login-close">&times;</span>
+            <div class="modal-header">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 10px; color: var(--primary-color);">
+                    <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4" />
+                    <polyline points="10 17 15 12 10 7" />
+                    <line x1="15" y1="12" x2="3" y2="12" />
+                </svg>
+                <h2>Student Login</h2>
+            </div>
+            <p class="modal-subtitle">Enter your credentials to access your student account.</p>
+
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="student@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="••••••••" required>
+                </div>
+
+                <a href="#" class="forgot-password">Forgot password?</a>
+
+                <button type="submit" class="btn btn-primary full-width">Login</button>
+
+                <div class="form-footer">
+                    Don't have an account? <a href="#">Sign up</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Application Modal -->
+    <div id="applicationModal" class="modal">
+        <div class="modal-content large-modal">
+            <span class="close-btn app-close">&times;</span>
+            <div class="modal-header">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"
+                    style="margin-right: 10px; color: var(--primary-color);">
+                    <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+                    <polyline points="14 2 14 8 20 8" />
+                    <line x1="16" y1="13" x2="8" y2="13" />
+                    <line x1="16" y1="17" x2="8" y2="17" />
+                    <polyline points="10 9 9 9 8 9" />
+                </svg>
+                <h2 id="appModalTitle">Apply for Job</h2>
+            </div>
+            <p class="modal-subtitle">Fill in your details and upload your resume. Your application will be sent
+                directly to our partner companies.</p>
+
+            <form class="application-form">
+                <h3 class="form-section-title">Personal Information</h3>
+                <div class="form-row">
+                    <div class="form-group half">
+                        <label>Full Name *</label>
+                        <input type="text" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group half">
+                        <label>Email *</label>
+                        <input type="email" placeholder="student@example.com" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group half">
+                        <label>Phone Number *</label>
+                        <input type="tel" placeholder="+1 (555) 123-4567" required>
+                    </div>
+                </div>
+
+                <h3 class="form-section-title">Education</h3>
+                <div class="form-row">
+                    <div class="form-group half">
+                        <label>University/College *</label>
+                        <input type="text" placeholder="Stanford University" required>
+                    </div>
+                    <div class="form-group half">
+                        <label>Expected Graduation Year *</label>
+                        <input type="number" placeholder="2026" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Major/Field of Study *</label>
+                    <input type="text" placeholder="Computer Science" required>
+                </div>
+
+                <h3 class="form-section-title">Resume/CV *</h3>
+                <div class="file-upload-container">
+                    <div class="file-upload-text">Choose File No file chosen</div>
+                    <input type="file" required class="file-input">
+                    <svg class="upload-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <polyline points="17 8 12 3 7 8" />
+                        <line x1="12" y1="3" x2="12" y2="15" />
+                    </svg>
+                </div>
+
+                <h3 class="form-section-title">Cover Letter/Why are you interested? *</h3>
+                <div class="form-group">
+                    <textarea
+                        placeholder="Tell us why you're interested in this position and what makes you a great fit..."
+                        rows="3"></textarea>
+                </div>
+
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-outline app-cancel">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
